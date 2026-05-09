@@ -1,3 +1,5 @@
+import './ShoppingList.css'
+
 const products = [
   { title: 'Cabbage', isFruit: false, id: 1 },
   { title: 'Garlic', isFruit: false, id: 2 },

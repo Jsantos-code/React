@@ -1,7 +1,14 @@
-.avatar {
-  border-radius: 50%;
+/* Body */
+.App {
+  background-color: #F2E6D8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #261D12;
+  text-align: center;
 }
 
-.App {
-  background-color: white;
+/* Text */
+h1 {
+  margin: 1.5rem;
+  font-size: 30px;
 }
+

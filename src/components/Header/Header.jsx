@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-const Header = () => {
+function Header() {
     return (
         <header className="app-header">
             <h1>My site</h1>
@@ -13,7 +13,7 @@ const Header = () => {
                     </li>
 
                     <li>
-                        <a href="/about">About</a>
+                        <a href="/About">About</a>
                     </li>
                 </ul>
             </nav>

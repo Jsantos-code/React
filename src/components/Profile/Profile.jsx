@@ -1,3 +1,5 @@
+import './Profile.css'
+
 export default function Profile() {
 
   const user = {
@@ -9,6 +11,7 @@ export default function Profile() {
   return (
     <>
       <h1>{user.name}</h1>
+      <h1 style={{color: '#8C403A'}}>Welcome Back, Admin.</h1>
       <img
         className="avatar"
         src={user.imageUrl}
